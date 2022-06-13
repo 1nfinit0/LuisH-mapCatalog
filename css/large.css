@@ -1,0 +1,16 @@
+header .container_logo .logo {
+    width: 62px;
+    height: 62px;
+}
+.tittle h1 {
+    font-size: 6rem;
+}
+.spam p {
+    font-size: 2rem;
+}
+.tittle a div span{
+    font-size: 3rem;
+}
+.tittle a div {
+    padding: 20px 40px;
+}

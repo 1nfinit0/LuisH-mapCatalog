@@ -1,0 +1,26 @@
+header .container_logo .logo {
+    width: 52px;
+    height: 52px;
+}
+.tittle {
+    flex-direction: row;
+    padding: 8% 0;
+}
+.tittle h1 {
+    font-size: 3.5rem;
+}
+.tittle a {
+    margin: auto;
+}
+.spam p {
+    font-size: 1.6rem;
+}
+.tittle a div span{
+    font-size: 2rem;
+}
+.tittle a div {
+    padding: 15px 20px;
+}
+.tittle a {
+    padding-right: 100px;
+}

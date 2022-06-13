@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    /*  */
+    background-color: #07091A;
+    color: aliceblue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+header .container_logo {
+    width: 100%;
+    max-width: 1280px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+header .container_logo .logo {
+    background-image: url("../assets/img/favicon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+main {
+    width: 100%;
+    background-image: url("../assets/img/font.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.tittle {
+    width: 100%;
+    max-width: 1280px;
+    padding: 10px 0;
+    margin: 0 auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.tittle h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    max-width: 650px;
+    padding: 10% 0;
+    padding-left: 10%;
+    font-family: noto sans, sans-serif;
+}
+.tittle a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+.tittle a:hover {
+    cursor: default;
+}
+.tittle a div{
+    color: #fff;
+    border: 1px solid #3444d3;
+    background-color: #07091A;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+.tittle a div:hover {
+    background-color: #1a1d37;
+    cursor: default;
+}
+.tittle a div span{
+    text-align: center;
+    font-family: josefin sans, sans-serif;
+    font-size: 1.6rem;
+    padding: 22px;
+    text-align: center;
+}
+.spam {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 10%;
+}
+.spam p {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: end;
+    padding: 10px;
+    padding-right: 10%;
+    font-family: josefin sans, sans-serif;
+    font-style: italic;
+}
+footer {
+    width: 100%;
+}
+footer .container_footer {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.container_footer h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: josefin sans, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.container_footer p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: josefin sans, sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.github div {
+    background-image: url("../assets/img/github.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: invert();
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.twitter div {
+    background-image: url("../assets/img/twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: invert();
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.youtube div {
+    background-image: url("../assets/img/youtube.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: invert();
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.whatsapp div {
+    background-image: url("../assets/img/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: grayscale(100%);
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
