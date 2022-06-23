@@ -6,7 +6,7 @@
 html {
     font-size: 62.5%;
     /*  */
-    background-color: #07091A;
+    background-color: #0a0d27;
     color: aliceblue;
 }
 body {
@@ -41,9 +41,10 @@ main {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    filter: brightness(1.5);
     display: flex;
     flex-direction: column;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 .tittle {
     width: 100%;
@@ -97,22 +98,24 @@ main {
     height: 10%;
 }
 .spam p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
     text-align: end;
     padding: 10px;
     padding-right: 10%;
+    padding-bottom: 20px;
     font-family: josefin sans, sans-serif;
     font-style: italic;
 }
 footer {
     width: 100%;
+    background: linear-gradient(180deg, rgba(10,13,39,1) 0%, rgba(6,6,94,1) 58%, rgba(125,0,255,1) 100%);
 }
 footer .container_footer {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 10% 0;
+    padding: 2% 0;
     text-align: center;
 }
 .container_footer h3 {
@@ -120,7 +123,7 @@ footer .container_footer {
     color: #fff;
     font-family: josefin sans, sans-serif;
     font-weight: bold;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .container_footer p {
     font-size: 1.5rem;
