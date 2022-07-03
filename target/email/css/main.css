@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background: linear-gradient(216deg, rgba(15,24,99,1) 0%, rgba(48,8,50,1) 49%, rgba(0,0,0,1) 100%);
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+main .header {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 10px;
+}
+main .header a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main .header a .logo {
+    display: flex;
+    align-items: center;
+}
+main .header .logo img{
+    width: 50px;
+}
+main .header .logo p {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+main .header hr {
+    width: 90%;
+    max-width: 800px;
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin-top: 10px;
+}
+
+main .email {    
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.201);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    margin: auto 10px;
+}
+main .email form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.email form .labels {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.email form .labels label {
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: white;
+}
+.email form .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.email form .inputs input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.383);
+    color: white;
+    font-size: 1.5rem;
+}
+.email form .inputs input:focus {
+    outline: none;
+}
+.email form .inputs textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.383);
+    color: white;
+    font-size: 1.4rem;
+    resize: none;
+}
+.email form .inputs textarea:focus {
+    outline: none;
+}
+#enviarCorreo {
+    width: 90px;
+    margin: 0 auto;
+    background-color: rgb(255, 197, 7);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+#enviarCorreo:hover {
+    background-color: rgb(82, 66, 160);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
