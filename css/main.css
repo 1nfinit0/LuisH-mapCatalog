@@ -220,11 +220,12 @@ footer .redes {
     margin: 0 auto;
     padding: 20px;
 }
-.redes a img {
-    width: 30px;
+.redes a > img {
+    width: 35px;
     height: auto;
     filter: invert(1);
-    margin: 0 5px;
+    margin: 0 7px;
+    border-radius: 0%;
 }
 footer hr {
     width: 50%;
