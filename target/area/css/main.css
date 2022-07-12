@@ -109,28 +109,28 @@ main .areas > div h2 a {
     color: white;
 }
 main .areas #analisis_espacial {
-    background-image: url("../img/analisis_espacial.png");
+    background-image: url("../img/analisis_espacial.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 main .areas #teledeteccion {
-    background-image: url("../img/nir.png");
+    background-image: url("../img/nir.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0, 0, 0, 0));
 }
 main .areas #mapas_tematicos {
-    background-image: url("../img/thematic.png");
+    background-image: url("../img/thematic.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 main .areas #postgresqlbd {
-    background-image: url("../img/plpgsql.png");
+    background-image: url("../img/plpgsql.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
