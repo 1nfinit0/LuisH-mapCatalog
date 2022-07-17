@@ -125,6 +125,7 @@ main .proyectos {
 .proyecto > a {
     width: 10%;
     min-width: 100px;
+    min-height: 150px;
     display: flex;
 }
 .proyecto a img {
@@ -190,6 +191,11 @@ main .proyectos {
 }
 .formatos .pdf {
     background-color: red   ;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
+.formatos .glb {
+    background-color: gray   ;
     border-radius: 4px;
     padding: 3px 5px;
 }

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background: linear-gradient(216deg, rgba(15,24,99,1) 0%, rgba(48,8,50,1) 49%, rgba(0,0,0,1) 100%);
+}
+header {
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container_header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.container_header a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container_header a .logo {
+    display: flex;
+    align-items: center;
+}
+.container_header .logo img{
+    width: 50px;
+}
+.container_header .logo p {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.container_header hr {
+    width: 100%;
+    max-width: 1000px;
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin: 20px auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main h1 {
+    font-size: 2rem;
+    color: #82DDFF;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+main .map_container {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 220px;
+    max-width: 600px;
+    height: 100vh;
+    min-height: 350px;
+    max-height: 700px;
+    -webkit-filter: drop-shadow(15px 15px 15px rgb(0, 0, 0));
+
+}
+main #map {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 220px;
+    max-width: 600px;
+    height: 100vh;
+    min-height: 350px;
+    max-height: 700px;
+    border-radius: 10px;
+}
+footer {
+    width: 100%;
+    height: 300px;
+}
