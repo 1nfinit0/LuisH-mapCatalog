@@ -14,22 +14,32 @@ body {
 header {
     width : 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .container_header {
-    width: 100%;
+    width: 100%;    
     max-width: 1000px;
     margin: 0 auto;
-    padding: 25px 25px 0 25px;
+    padding: 25px 20px 0 25px;
+    display: flex;
+    flex-direction: row;
 }
 .container_header a {
+    width: 50%;
     margin: 0 auto;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }
-.container_header a .logo {
+.container_header .left {
+    justify-content: flex-start;
+}
+.container_header .right {
+    justify-content: center;
+}
+.container_header a > div {
     display: flex;
     align-items: center;
 }
@@ -40,7 +50,19 @@ header {
     font-size: 2rem;
     margin-left: 10px;
 }
-.container_header hr {
+.arrow {
+    background-image: url("../../../assets/img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+}
+.arrow p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-left: 10px;
+}
+header hr {
     width: 100%;
     max-width: 1000px;
     border: none;
