@@ -1,5 +1,5 @@
 const files = [
-    {   href: './files/limiteNacional/limite_nacional.html',
+    {   href: 'https://1nfinit0.github.io/peru_limites_nacionales/',
         src: './assets/img/limite_nacional_peru.png',
         alt: 'No disponible',
         titulo:'Perú total - Límite nacional',
@@ -11,7 +11,7 @@ const files = [
         pdf:'',
         glb:''
     },
-    {   href: './files/clegua_luna_park/modelo.html',
+    {   href: 'https://1nfinit0.github.io/carmen_de_la_legua_modelo3D/',
         src: './assets/img/clegua_3d.png',
         alt: 'No disponible',
         titulo: 'Parque Media Luna - Carmen de La Legua | Modelo 3D',
