@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Parque Media Luna - Carmen de La Legua</title>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <a href="../../../index.html">
+                <div class="logo">
+                    <img src="../../../assets/img/favicon.svg" alt="Huatay">
+                    <p>Lhuatay</p>
+                </div>
+            </a>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <h1>Perú Total - Límite Nacional</h1>
+        <div class="map_container">
+            <div id="map">
+                <model-viewer class="model" alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="src/CLegua_render.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="src/day.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="2" camera-controls enable-pan auto-rotate>
+                </model-viewer>
+            </div>
+        </div>
+        <div class="metadata">
+            <div class="descarga">
+                <h3>Descarga</h3>
+                <hr>
+                <div class="formatos">
+                    <a href="https://github.com/1nfinit0/mindAR-prueba/raw/master/downloader/peru_limite_nacional.zip" download>
+                        <div class='shp'>
+                            <p>SHP</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/1nfinit0/mindAR-prueba/raw/master/downloader/peru_limite_nacional_gml.zip" download>
+                        <div class='gml'>
+                            <p>GML</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/1nfinit0/mindAR-prueba/raw/master/downloader/peru_limite_nacional_sql.zip" download>
+                        <div class='bd'>
+                            <p>PL/PgSQL</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/1nfinit0/mindAR-prueba/raw/master/downloader/peru_limite_nacional_geojson.zip" download>
+                        <div class='geojson'>
+                            <p>GeoJson</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="info">
+                <h3>General</h3>
+                <hr>
+                <div class="dato">
+                    <h4>Archivo</h4>
+                    <p>peru_limite_nacional</p>
+                </div>
+                <hr class="dato_booth">
+                <div class="dato">
+                    <h4>Origen</h4>
+                    <p>PL/PgSQL personal database</p>
+                </div>
+                <hr class="dato_booth">
+                <div class="dato">
+                    <h4>Geometría</h4>
+                    <p>Polygon</p>
+                </div>
+                <hr class="dato_booth">
+                <div class="dato">
+                    <h4>Extensión</h4>
+                    <p>-81.328230, -18.350927 : -68.652279, -0.03860596</p>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Sistema de Referencia de Coordenadas (SRC)</h3>
+                <hr>
+                <div class="dato">
+                    <h4>SRC</h4>
+                    <p>EPSG:4326 - WGS 84</p>
+                </div>
+                <hr class="dato_booth">
+                <div class="dato">
+                    <h4>Unidades</h4>
+                    <p>Geográficas - Long/Lat</p>
+                </div>
+                <hr class="dato_booth">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="../../../assets/img/foto_personal.jpg" alt="perfil">
+        <h2>Luis E. Huatay S.</h2>
+        <div class="costado">
+            <span>
+            </span>
+            <h4>T. Geomático</h4>
+        </div>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCPO_W-iDJmM77phTZYp_aWQ"><img src="../../../assets/img/yt.svg" alt="Youtube"></a>
+            <a href="https://wa.link/pvdrx9"><img src="../../../assets/img/whats.svg" alt="WhatssApp"></a>
+            <a href="https://github.com/1nfinit0"><img src="../../../assets/img/github.svg" alt="Github"></a>
+            <a href="https://twitter.com/1nfyT"><img src="../../../assets/img/twitter-svgrepo-com.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/luishuatay/"><img src="../../../assets/img/linkedin-svgrepo-com.svg" alt="Linkedin"></a>
+        </div>
+        <hr>
+        <p>(CC) Luis Huatay. 2024</p>
+        <p>Biblioteca geográfica de proyectos personales, insumos geográficos, mapas temáticos, datos espaciales, notas expositivas, ideas en general.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>

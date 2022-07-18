@@ -11,7 +11,7 @@ const files = [
         pdf:'',
         glb:''
     },
-    {   href: '../target/model/modelo.html',
+    {   href: './files/clegua_luna_park/modelo.html',
         src: './assets/img/clegua_3d.png',
         alt: 'No disponible',
         titulo: 'Parque Media Luna - Carmen de La Legua | Modelo 3D',
