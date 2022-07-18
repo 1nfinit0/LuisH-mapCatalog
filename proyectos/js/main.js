@@ -7,8 +7,8 @@ const files = [
         shp:'SHP',
         gml:'GML',
         bd:'PL/PgSQL',
-        geojeson:'',
-        pdf:'PDF',
+        geojeson:'GeoJson',
+        pdf:'',
         glb:''
     },
     {   href: '../target/model/modelo.html',

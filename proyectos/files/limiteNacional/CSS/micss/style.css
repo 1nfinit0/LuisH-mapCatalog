@@ -51,6 +51,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
+    padding: 0 10px;
 }
 main h1 {
     width: 100%;

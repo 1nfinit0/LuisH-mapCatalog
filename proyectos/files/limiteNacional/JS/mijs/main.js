@@ -16,14 +16,6 @@ var baseLayers = {
     'EsriWorldImagery': L.tileLayer.provider('Esri.WorldImagery')
 };
 
-var layer001 = L.tileLayer.wms('http://idesep.senamhi.gob.pe:80/geoserver/g_00_02/wms', {
-    layers: 'g_00_02:00_02_002_03_000_000_0000_00_00',
-    format: 'image/png',
-    opacity: 1,
-    transparent: true,
-    tiled: 'true'
-});
-
 var limiteNacional = L.geoJSON({
     "type": "FeatureCollection",
     "name": "limite_nacional",
@@ -36,7 +28,6 @@ var limiteNacional = L.geoJSON({
 
 var groupOverLays = {
     "Límite nacional del Perú": {
-        "Departamentos": layer001,
         "Límite Nacional": limiteNacional
     }
 };
