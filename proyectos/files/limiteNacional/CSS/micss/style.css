@@ -20,7 +20,7 @@ header {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
 }
 .container_header a {
     margin: 0 auto;
@@ -51,15 +51,14 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
 }
 main h1 {
     width: 100%;
     max-width: 600px;
     font-size: 2rem;
     color: #3c90f1;
-    padding: 0 20px 25px 20px;
-    text-align: end;
+    padding: 0 20px 20px 20px;
+    text-align: center;
     margin: 0 auto;
 }
 main .map_container {
@@ -89,24 +88,25 @@ main #map {
 main .metadata {
     width: 100%;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 40px auto 20px auto;
     padding: 20px;
     background: rgba(255,255,255,0.2);
     border-radius: 10px;
 }
-.metadata .descarga {
+.metadata > div {
     display: flex;
     flex-direction: column;
+    padding: 10px 0 10px 0;
 }
-.descarga h3 {
+.metadata h3 {
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #3c90f1;
     padding: 0 0 5px 15px;
 }
-.descarga hr {
+.metadata hr {
     width: 100%;
     border: none;
-    height: 1px;
+    height: 2px;
     background: rgba(255,255,255,0.2);
     margin: 0 auto;
 }
@@ -144,10 +144,35 @@ main .metadata {
     text-decoration: none;
     color: white;
 }
-.formatos p {
-    font-family: monospace;
+.metadata p, h4 {
+    font-family: monospace, 'Courier New', Courier;
     font-size: 1.3rem;
 }
+.info .dato {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.dato h4 {
+    width: 35%;
+}
+.dato p {
+    width: 65%;
+    padding: 5px 0;
+}
+.info .dato_booth {
+    width: 90%;
+    max-width: 768px;
+    border: none;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.274);
+    margin: 0 auto;
+}
+
 
 /* Footer */
 
