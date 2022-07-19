@@ -38,6 +38,19 @@ const files = [
         glb:'',
         kml:'KML'
     },
+    {   href: 'https://1nfinit0.github.io/capitales_peru/',
+        src: './assets/img/capitales_peru.png',
+        alt: 'No disponible',
+        titulo: 'Capitales del Perú',
+        descripcion:'Marcadores de capitales del Perú, archivo vectorial. EPSG: 4326. Contiene código de capital, fuente, ubigeo departamental y nombre de capital.',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'PDF',
+        glb:'',
+        kml:'KML'
+    },
     
 ]
 
