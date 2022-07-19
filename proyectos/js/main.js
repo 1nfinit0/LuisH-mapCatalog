@@ -15,13 +15,26 @@ const files = [
         src: './assets/img/clegua_3d.png',
         alt: 'No disponible',
         titulo: 'Parque Media Luna - Carmen de La Legua | Modelo 3D',
-        descripcion:'Modelo 3D del parque Media Luna y alrededores del distrito de Carmen de La Legua -  Reynoso',
+        descripcion:'Modelo 3D del parque Media Luna y alrededores del distrito de Carmen de La Legua -  Reynoso distrito del Lima',
         shp:'',
         gml:'',
         bd:'',
         geojeson:'',
         pdf:'',
         glb:'GLB'
+    },
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/',
+        src: './assets/img/clegua_3d.png',
+        alt: 'No disponible',
+        titulo: 'Perú total - Límites departamentales',
+        descripcion:'Límites departamentales del Perú, archivo vectorial. EPSG: 4326. Contiene código de departamento y nombre del departamento.',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'PDF',
+        glb:'',
+        kml:'KML'
     },
 ]
 
@@ -50,6 +63,7 @@ const acentos = {'á':'a','é':'e','í':'i','ó':'o','ú':'u','Á':'A','É':'E',
                                                     "<div class='geojson'><p>"+file.geojeson+"</p></div>"+
                                                     "<div class='pdf'><p>"+file.pdf+"</p></div>"+
                                                     "<div class='glb'><p>"+file.glb+"</p></div>"+
+                                                    "<div class='kml'><p>"+file.kml+"</p></div>"+
                                                 "</div>"+
                                         "</div>"+
                                     "</div><hr>";
