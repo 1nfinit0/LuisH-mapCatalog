@@ -9,7 +9,8 @@ const files = [
         bd:'PL/PgSQL',
         geojeson:'GeoJson',
         pdf:'',
-        glb:''
+        glb:'',
+        kml:''
     },
     {   href: 'https://1nfinit0.github.io/carmen_de_la_legua_modelo3D/',
         src: './assets/img/clegua_3d.png',
@@ -21,10 +22,11 @@ const files = [
         bd:'',
         geojeson:'',
         pdf:'',
-        glb:'GLB'
+        glb:'GLB',
+        kml:''
     },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/',
-        src: './assets/img/clegua_3d.png',
+        src: './assets/img/ldepartamentales.png',
         alt: 'No disponible',
         titulo: 'Perú total - Límites departamentales',
         descripcion:'Límites departamentales del Perú, archivo vectorial. EPSG: 4326. Contiene código de departamento y nombre del departamento.',

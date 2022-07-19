@@ -191,17 +191,17 @@ main .proyectos {
     padding: 3px 5px;
 }
 .formatos .pdf {
-    background-color: red   ;
+    background-color: red;
     border-radius: 4px;
     padding: 3px 5px;
 }
 .formatos .glb {
-    background-color: gray   ;
+    background-color: gray;
     border-radius: 4px;
     padding: 3px 5px;
 }
 .formatos .kml {
-    background-color: rgb(126, 21, 128)   ;
+    background-color: rgb(37, 75, 94);
     border-radius: 4px;
     padding: 3px 5px;
 }
