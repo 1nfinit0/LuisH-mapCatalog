@@ -95,7 +95,7 @@ main .entrada {
     border: none;
     height: 1px;
     background: rgba(255, 255, 255, 0.452);
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 .entrada button {
     width: 10%;
@@ -111,7 +111,7 @@ main .entrada {
 main .proyectos {
     width: 100%;
     max-width: 1000px;
-    min-height: 700px;
+    min-height: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

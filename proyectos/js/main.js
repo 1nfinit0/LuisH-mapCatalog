@@ -38,6 +38,7 @@ const files = [
         glb:'',
         kml:'KML'
     },
+    
 ]
 
 const formulario = document.querySelector('#formulario');
