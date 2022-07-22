@@ -205,6 +205,9 @@ main .proyectos {
     border-radius: 4px;
     padding: 3px 5px;
 }
+.formatos .tif {
+    background-color: rgb(236, 7, 179);;
+}
 .formatos p {
     font-family: monospace;
     font-size: 1.2rem;

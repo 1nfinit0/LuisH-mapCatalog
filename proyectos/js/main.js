@@ -10,7 +10,8 @@ const files = [
         geojeson:'GeoJson',
         pdf:'',
         glb:'',
-        kml:''
+        kml:'',
+        tif:''
     },
     {   href: 'https://1nfinit0.github.io/carmen_de_la_legua_modelo3D/',
         src: './assets/img/clegua_3d.png',
@@ -23,7 +24,8 @@ const files = [
         geojeson:'',
         pdf:'',
         glb:'GLB',
-        kml:''
+        kml:'',
+        tif:''
     },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/',
         src: './assets/img/ldepartamentales.png',
@@ -36,7 +38,8 @@ const files = [
         geojeson:'GeoJson',
         pdf:'PDF',
         glb:'',
-        kml:'KML'
+        kml:'KML',
+        tif:''
     },
     {   href: 'https://1nfinit0.github.io/capitales_peru/',
         src: './assets/img/capitales_peru.png',
@@ -49,9 +52,23 @@ const files = [
         geojeson:'GeoJson',
         pdf:'PDF',
         glb:'',
-        kml:'KML'
+        kml:'KML',
+        tif:''
     },
-    
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/pronostico_48UV/pronostico_uv_48.html',
+        src: './assets/img/radiacion_uv_48.png',
+        alt: 'No disponible',
+        titulo: 'Pronóstico de Radiación UV - 48 horas',
+        descripcion:'Pronóstico de radiación UV cada actualizado cada 48 hrs. Archivo vectorial disṕnoble como raster y vector.',
+        shp:'SHP',
+        gml:'',
+        bd:'',
+        geojeson:'GeoJson',
+        pdf:'PDF',
+        glb:'',
+        kml:'KML',
+        tif:'TIF'
+    },
 ]
 
 const formulario = document.querySelector('#formulario');
