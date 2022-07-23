@@ -69,6 +69,20 @@ const files = [
         kml:'KML',
         tif:'TIF'
     },
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/huascaran_3d/',
+        src: './assets/img/huascaran_3d.png',
+        alt: 'No disponible',
+        titulo: 'Nevado Huascaran - Huaraz | Modelo 3D',
+        descripcion:'Modelo 3D del nevado Huascarán norte, sur y nevado Chopicalqui, ubicado en el distrito de Huaraz departamento del Perú.',
+        shp:'',
+        gml:'',
+        bd:'',
+        geojeson:'',
+        pdf:'',
+        glb:'GLB',
+        kml:'',
+        tif:''
+    },
 ]
 
 const formulario = document.querySelector('#formulario');
