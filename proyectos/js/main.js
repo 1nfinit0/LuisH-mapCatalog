@@ -72,7 +72,7 @@ const files = [
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/huascaran_3d/',
         src: './assets/img/huascaran_3d.png',
         alt: 'No disponible',
-        titulo: 'Nevado Huascaran - Huaraz | Modelo 3D',
+        titulo: 'Nevado Huascarán - Huaraz | Modelo 3D',
         descripcion:'Modelo 3D del nevado Huascarán norte, sur y nevado Chopicalqui, ubicado en el distrito de Huaraz departamento del Perú.',
         shp:'',
         gml:'',
@@ -82,6 +82,20 @@ const files = [
         glb:'GLB',
         kml:'',
         tif:''
+    },
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/aerodromos-del-peru/',
+        src: './assets/img/aerodromos_del_peru.png',
+        alt: 'No disponible',
+        titulo: 'Aeródromos del Perú',
+        descripcion:'Aeródromos del Perú basada en información proveniente del ministerio de transportes comunicación del Perú. MTC.',
+        shp:'SHP',
+        gml:'',
+        bd:'',
+        geojeson:'GeoJson',
+        pdf:'',
+        glb:'',
+        kml:'KML',
+        tif:'TIF'
     },
 ]
 
@@ -111,6 +125,7 @@ const acentos = {'á':'a','é':'e','í':'i','ó':'o','ú':'u','Á':'A','É':'E',
                                                     "<div class='pdf'><p>"+file.pdf+"</p></div>"+
                                                     "<div class='glb'><p>"+file.glb+"</p></div>"+
                                                     "<div class='kml'><p>"+file.kml+"</p></div>"+
+                                                    "<div class='tif'><p>"+file.tif+"</p></div>"+
                                                 "</div>"+
                                         "</div>"+
                                     "</div><hr>";
