@@ -111,7 +111,7 @@ main .entrada {
 main .proyectos {
     width: 100%;
     max-width: 1000px;
-    min-height: 800px;
+    min-height: 850px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -135,12 +135,11 @@ main .proyectos {
 }
 .proyecto .descripcion {
     width: 90%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 5px 10px;
-    margin: auto 0;
-    justify-content: space-between;
+    padding: 2px 10px;
+    
+    justify-content: space-around;
 }
 .descripcion a {
     text-decoration: none;
@@ -205,7 +204,7 @@ main .proyectos {
     width: 99%;
     border: none;
     height: 1px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.112);
 }
 footer {
     display: flex;
@@ -225,7 +224,7 @@ footer h2 {
     padding: 20px 0 10px 0;
     text-align: center;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 footer .costado {
@@ -240,7 +239,7 @@ footer .costado {
 .costado h4 {
     width: 50%;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 footer .redes {
     display: flex;
