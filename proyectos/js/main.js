@@ -30,7 +30,7 @@ const files = [
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/',
         src: './assets/img/ldepartamentales.png',
         alt: 'No disponible',
-        titulo: 'Perú total - Límites departamentales',
+        titulo: 'Departamentos del Perú',
         descripcion:'Límites departamentales del Perú, archivo vectorial. EPSG: 4326. Contiene código de departamento y nombre del departamento.',
         shp:'SHP',
         gml:'GML',
@@ -82,20 +82,6 @@ const files = [
         glb:'GLB',
         kml:'',
         tif:''
-    },
-    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/aerodromos-del-peru/',
-        src: './assets/img/aerodromos_del_peru.png',
-        alt: 'No disponible',
-        titulo: 'Aeródromos del Perú',
-        descripcion:'Aeródromos del Perú basada en información proveniente del ministerio de transportes comunicación del Perú. MTC.',
-        shp:'SHP',
-        gml:'',
-        bd:'',
-        geojeson:'GeoJson',
-        pdf:'',
-        glb:'',
-        kml:'KML',
-        tif:'TIF'
     },
 ]
 
