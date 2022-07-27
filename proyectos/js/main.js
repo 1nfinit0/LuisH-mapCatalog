@@ -83,7 +83,7 @@ const files = [
         kml:'KML',
         tif:''
     },
-    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/pronostico_48UV/pronostico_uv_48.html',
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/pronostico_48UV/',
         src: './assets/img/radiacion_uv_48.png',
         alt: 'No disponible',
         titulo: 'Pronóstico de Radiación UV - 48 horas',
