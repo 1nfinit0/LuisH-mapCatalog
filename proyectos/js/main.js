@@ -1,4 +1,18 @@
 const files = [
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/cuencas_hidrograficas_peru/',
+        src: './assets/img/cuencas_hidrograficas_peru.png',
+        alt: 'No disponible',
+        titulo: 'Cuencas Hidrográficas del Perú',
+        descripcion:'Cuencas como objetos espaciales de totod el perú, contienen nombre de cuenca, niveles, orden de cuenca, codigo entre otros datos.',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'',
+        glb:'',
+        kml:'KML',
+        tif:''
+    },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/huascaran_3d/',
         src: './assets/img/huascaran_3d.png',
         alt: 'No disponible',
