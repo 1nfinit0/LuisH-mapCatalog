@@ -1,4 +1,18 @@
 const files = [
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/distritos_del_peru/',
+        src: './assets/img/distritos_peru.png',
+        alt: 'No disponible',
+        titulo: 'Distritos del Perú',
+        descripcion:'Distritos del Perú, contiene ubigeo, codigo del departamento, provincia y distrito. EPSG: 4326 (WGS84). Datos del INEI',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'',
+        glb:'',
+        kml:'KML',
+        tif:''
+    },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/cuencas_hidrograficas_peru/',
         src: './assets/img/cuencas_hidrograficas_peru.png',
         alt: 'No disponible',
