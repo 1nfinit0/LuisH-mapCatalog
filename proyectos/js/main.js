@@ -1,4 +1,18 @@
 const files = [
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/codigo_ubigeo_nacional/',
+        src: './assets/img/codigo_ubigeo_nacional.png',
+        alt: 'No disponible',
+        titulo: 'Códigos de Ubigeo Nacional',
+        descripcion:'Códigos de ubigeo del Perú, información espacial de tipo vectorial. Información proveniente del MTC.',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'',
+        glb:'',
+        kml:'',
+        tif:''
+    },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/distritos_del_peru/',
         src: './assets/img/distritos_peru.png',
         alt: 'No disponible',
