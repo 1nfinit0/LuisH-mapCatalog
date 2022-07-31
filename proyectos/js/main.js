@@ -1,4 +1,18 @@
 const files = [
+    {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/codigos_postales_del_peru',
+        src: './assets/img/codigos_postales_peru.png',
+        alt: 'No disponible',
+        titulo: 'Códigos Postales del Perú',
+        descripcion:'Códigos postales del Perú, información espacial de tipo vectorial. Información proveniente del MTC.',
+        shp:'SHP',
+        gml:'GML',
+        bd:'PL/PgSQL',
+        geojeson:'GeoJson',
+        pdf:'',
+        glb:'',
+        kml:'',
+        tif:''
+    },
     {   href: 'https://1nfinit0.github.io/peru_limites_departamentales/dirs/codigo_ubigeo_nacional/',
         src: './assets/img/codigo_ubigeo_nacional.png',
         alt: 'No disponible',
